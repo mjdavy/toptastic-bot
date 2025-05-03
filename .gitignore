@@ -49,8 +49,8 @@ instance/
 # *.sqlite3
 
 # Logs
-logs/
-*.log
+#logs/
+#*.log
 
 # macOS specific
 .DS_Store
@@ -58,8 +58,3 @@ logs/
 # Windows specific
 Thumbs.db
 
-# Project-specific
-download.log
-syncdb.log
-toptastic.log
-youtube.log
