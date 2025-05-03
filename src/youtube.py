@@ -8,26 +8,16 @@ from src.database import get_db_connection
 
 logger = logging.getLogger(__name__)
 
-# Try to read API keys from an environment variable first (for GitHub Actions)
-# Fall back to reading from a file (for local development)
+# Get API keys from environment variable
 def get_api_keys():
     api_keys = []
     
-    # Try environment variable first
     if 'YOUTUBE_API_KEYS' in os.environ:
         api_keys = os.environ['YOUTUBE_API_KEYS'].split(',')
         logger.info(f"Loaded {len(api_keys)} API key(s) from environment variable")
-        return api_keys
-    
-    # Fall back to file
-    api_keys_file = os.path.expanduser('~/OneDrive/secrets/toptastic/youtube_api_keys.txt')
-    try:
-        with open(api_keys_file) as f:
-            api_keys = f.read().splitlines()
-        logger.info(f"Loaded {len(api_keys)} API key(s) from file")
-    except Exception as e:
-        logger.error(f'Error reading API keys: {e}')
-        raise
+    else:
+        logger.error("No YOUTUBE_API_KEYS environment variable found")
+        raise ValueError("YOUTUBE_API_KEYS environment variable is required")
     
     return api_keys
 
