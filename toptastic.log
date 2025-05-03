@@ -1,0 +1,5 @@
+2025-05-03 10:43:53,867 - __main__ - INFO - Starting YouTube video ID update process
+2025-05-03 10:43:53,868 - src.youtube - INFO - Updating video IDs for 0 songs
+2025-05-03 10:43:53,868 - src.youtube - INFO - 0 video IDs updated successfully
+2025-05-03 10:43:53,869 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-05-03 10:43:53,869 - __main__ - INFO - YouTube video ID update process completed
