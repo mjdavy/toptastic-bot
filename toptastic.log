@@ -1,2 +1,114 @@
-2025-06-11 09:56:14,587 - src.scraper - INFO - Scraping chart data from: https://www.officialcharts.com/charts/singles-chart/20250610/7501/
-2025-06-11 09:56:14,813 - src.scraper - INFO - Scraped 100 songs from chart for date 2025-06-10
+2025-06-11 08:57:34,266 - __main__ - INFO - Starting YouTube video ID update process
+2025-06-11 08:57:34,268 - src.youtube - INFO - Updating video IDs for 27 songs
+2025-06-11 08:57:34,268 - src.youtube - INFO - Getting video ID for "FAMILY MATTERS SKYE NEWMAN" from YouTube
+2025-06-11 08:57:34,268 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-06-11 08:57:34,269 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:34,716 - src.youtube - INFO - Found video ID: H4PVsy2ijEw
+2025-06-11 08:57:34,724 - src.youtube - INFO - Updated video ID for 'FAMILY MATTERS' by 'SKYE NEWMAN': H4PVsy2ijEw
+2025-06-11 08:57:34,724 - src.youtube - INFO - Getting video ID for "JUST KEEP WATCHING TATE MCRAE" from YouTube
+2025-06-11 08:57:34,725 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:35,141 - src.youtube - INFO - Found video ID: dpvQqmX6SUI
+2025-06-11 08:57:35,142 - src.youtube - INFO - Updated video ID for 'JUST KEEP WATCHING' by 'TATE MCRAE': dpvQqmX6SUI
+2025-06-11 08:57:35,142 - src.youtube - INFO - Getting video ID for "BLESSINGS CALVIN HARRIS/DOUGLAS" from YouTube
+2025-06-11 08:57:35,143 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:35,950 - src.youtube - INFO - Found video ID: _okjhzBpdU0
+2025-06-11 08:57:35,951 - src.youtube - INFO - Updated video ID for 'BLESSINGS' by 'CALVIN HARRIS/DOUGLAS': _okjhzBpdU0
+2025-06-11 08:57:35,951 - src.youtube - INFO - Getting video ID for "BLOODLINE ALEX WARREN FT JELLY ROLL" from YouTube
+2025-06-11 08:57:35,952 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:36,668 - src.youtube - INFO - Found video ID: UBtfcphWKBY
+2025-06-11 08:57:36,670 - src.youtube - INFO - Updated video ID for 'BLOODLINE' by 'ALEX WARREN FT JELLY ROLL': UBtfcphWKBY
+2025-06-11 08:57:36,670 - src.youtube - INFO - Getting video ID for "CAN'T DECIDE MAX DEAN/LOCKY/LUKE DEAN" from YouTube
+2025-06-11 08:57:36,671 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:37,260 - src.youtube - INFO - Found video ID: 4oSjO9FP5t4
+2025-06-11 08:57:37,262 - src.youtube - INFO - Updated video ID for 'CAN'T DECIDE' by 'MAX DEAN/LOCKY/LUKE DEAN': 4oSjO9FP5t4
+2025-06-11 08:57:37,262 - src.youtube - INFO - Getting video ID for "ONE THING LOLA YOUNG" from YouTube
+2025-06-11 08:57:37,263 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:37,703 - src.youtube - INFO - Found video ID: bV9SOv_Y61s
+2025-06-11 08:57:37,705 - src.youtube - INFO - Updated video ID for 'ONE THING' by 'LOLA YOUNG': bV9SOv_Y61s
+2025-06-11 08:57:37,705 - src.youtube - INFO - Getting video ID for "FAME IS A GUN ADDISON RAE" from YouTube
+2025-06-11 08:57:37,706 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:38,233 - src.youtube - INFO - Found video ID: TkwZ2uQu2hE
+2025-06-11 08:57:38,235 - src.youtube - INFO - Updated video ID for 'FAME IS A GUN' by 'ADDISON RAE': TkwZ2uQu2hE
+2025-06-11 08:57:38,235 - src.youtube - INFO - Getting video ID for "NICE TO EACH OTHER OLIVIA DEAN" from YouTube
+2025-06-11 08:57:38,236 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:38,695 - src.youtube - INFO - Found video ID: VI0NDsh2b8k
+2025-06-11 08:57:38,696 - src.youtube - INFO - Updated video ID for 'NICE TO EACH OTHER' by 'OLIVIA DEAN': VI0NDsh2b8k
+2025-06-11 08:57:38,696 - src.youtube - INFO - Getting video ID for "OLD PHONE ED SHEERAN" from YouTube
+2025-06-11 08:57:38,697 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:39,210 - src.youtube - INFO - Found video ID: rj5dxoMY-dE
+2025-06-11 08:57:39,212 - src.youtube - INFO - Updated video ID for 'OLD PHONE' by 'ED SHEERAN': rj5dxoMY-dE
+2025-06-11 08:57:39,212 - src.youtube - INFO - Getting video ID for "WHAT I WANT MORGAN WALLEN/TATE MCRAE" from YouTube
+2025-06-11 08:57:39,213 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:39,774 - src.youtube - INFO - Found video ID: hNrwlzBeFN8
+2025-06-11 08:57:39,775 - src.youtube - INFO - Updated video ID for 'WHAT I WANT' by 'MORGAN WALLEN/TATE MCRAE': hNrwlzBeFN8
+2025-06-11 08:57:39,775 - src.youtube - INFO - Getting video ID for "CLICHE MGK" from YouTube
+2025-06-11 08:57:39,776 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:40,160 - src.youtube - INFO - Found video ID: m4DVbm9zeR0
+2025-06-11 08:57:40,161 - src.youtube - INFO - Updated video ID for 'CLICHE' by 'MGK': m4DVbm9zeR0
+2025-06-11 08:57:40,161 - src.youtube - INFO - Getting video ID for "THE GLEN LEVI HERON" from YouTube
+2025-06-11 08:57:40,162 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:40,564 - src.youtube - INFO - Found video ID: _CbxJBtgd9o
+2025-06-11 08:57:40,567 - src.youtube - INFO - Updated video ID for 'THE GLEN' by 'LEVI HERON': _CbxJBtgd9o
+2025-06-11 08:57:40,567 - src.youtube - INFO - Getting video ID for "GOLD MYLES SMITH" from YouTube
+2025-06-11 08:57:40,568 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:40,992 - src.youtube - INFO - Found video ID: n7BzUgKX3_g
+2025-06-11 08:57:40,994 - src.youtube - INFO - Updated video ID for 'GOLD' by 'MYLES SMITH': n7BzUgKX3_g
+2025-06-11 08:57:40,994 - src.youtube - INFO - Getting video ID for "COPS & ROBBERS SAMMY VIRJI/SKEPTA" from YouTube
+2025-06-11 08:57:40,995 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:41,364 - src.youtube - INFO - Found video ID: yQixc1U9nro
+2025-06-11 08:57:41,366 - src.youtube - INFO - Updated video ID for 'COPS & ROBBERS' by 'SAMMY VIRJI/SKEPTA': yQixc1U9nro
+2025-06-11 08:57:41,366 - src.youtube - INFO - Getting video ID for "BORDERLINE ELY OAKS & LAVINIA" from YouTube
+2025-06-11 08:57:41,366 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:41,745 - src.youtube - INFO - Found video ID: 7bZhhliqgh8
+2025-06-11 08:57:41,749 - src.youtube - INFO - Updated video ID for 'BORDERLINE' by 'ELY OAKS & LAVINIA': 7bZhhliqgh8
+2025-06-11 08:57:41,749 - src.youtube - INFO - Getting video ID for "THE WAY I LOVE YOU JORJA SMITH" from YouTube
+2025-06-11 08:57:41,750 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:42,177 - src.youtube - INFO - Found video ID: R25qYkkv_t8
+2025-06-11 08:57:42,179 - src.youtube - INFO - Updated video ID for 'THE WAY I LOVE YOU' by 'JORJA SMITH': R25qYkkv_t8
+2025-06-11 08:57:42,179 - src.youtube - INFO - Getting video ID for "MAN OF THE YEAR LORDE" from YouTube
+2025-06-11 08:57:42,180 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:42,684 - src.youtube - INFO - Found video ID: ynrSkSYirB0
+2025-06-11 08:57:42,685 - src.youtube - INFO - Updated video ID for 'MAN OF THE YEAR' by 'LORDE': ynrSkSYirB0
+2025-06-11 08:57:42,686 - src.youtube - INFO - Getting video ID for "EASY LOVER MILEY CYRUS" from YouTube
+2025-06-11 08:57:42,686 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:43,093 - src.youtube - INFO - Found video ID: s8h4YNaX2aM
+2025-06-11 08:57:43,094 - src.youtube - INFO - Updated video ID for 'EASY LOVER' by 'MILEY CYRUS': s8h4YNaX2aM
+2025-06-11 08:57:43,094 - src.youtube - INFO - Getting video ID for "ZOMBIE YUNGBLUD" from YouTube
+2025-06-11 08:57:43,095 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:43,477 - src.youtube - INFO - Found video ID: Yv97b2oPk3w
+2025-06-11 08:57:43,479 - src.youtube - INFO - Updated video ID for 'ZOMBIE' by 'YUNGBLUD': Yv97b2oPk3w
+2025-06-11 08:57:43,479 - src.youtube - INFO - Getting video ID for "ILLEGAL PINKPANTHERESS" from YouTube
+2025-06-11 08:57:43,480 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:43,862 - src.youtube - INFO - Found video ID: TFWXqLSr4ZM
+2025-06-11 08:57:43,864 - src.youtube - INFO - Updated video ID for 'ILLEGAL' by 'PINKPANTHERESS': TFWXqLSr4ZM
+2025-06-11 08:57:43,864 - src.youtube - INFO - Getting video ID for "OWA OWA LIL TECCA" from YouTube
+2025-06-11 08:57:43,865 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:44,293 - src.youtube - INFO - Found video ID: hnbN2L_tkCE
+2025-06-11 08:57:44,295 - src.youtube - INFO - Updated video ID for 'OWA OWA' by 'LIL TECCA': hnbN2L_tkCE
+2025-06-11 08:57:44,295 - src.youtube - INFO - Getting video ID for "OVER YOU NATHAN DAWE/SHAYAN" from YouTube
+2025-06-11 08:57:44,296 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:44,689 - src.youtube - INFO - Found video ID: n78awNvBfPQ
+2025-06-11 08:57:44,691 - src.youtube - INFO - Updated video ID for 'OVER YOU' by 'NATHAN DAWE/SHAYAN': n78awNvBfPQ
+2025-06-11 08:57:44,691 - src.youtube - INFO - Getting video ID for "TAKE A SEXY PICTURE OF ME CMAT" from YouTube
+2025-06-11 08:57:44,691 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:45,092 - src.youtube - INFO - Found video ID: QU-q3tJjFoQ
+2025-06-11 08:57:45,094 - src.youtube - INFO - Updated video ID for 'TAKE A SEXY PICTURE OF ME' by 'CMAT': QU-q3tJjFoQ
+2025-06-11 08:57:45,094 - src.youtube - INFO - Getting video ID for "LEAVE ME ALONE RENEE RAPP" from YouTube
+2025-06-11 08:57:45,095 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:45,516 - src.youtube - INFO - Found video ID: L6Rn7qTHXnc
+2025-06-11 08:57:45,518 - src.youtube - INFO - Updated video ID for 'LEAVE ME ALONE' by 'RENEE RAPP': L6Rn7qTHXnc
+2025-06-11 08:57:45,518 - src.youtube - INFO - Getting video ID for "NOPE YOUR TOO LATE I ALREADY DIED WIFISKELETON/O LANTERN" from YouTube
+2025-06-11 08:57:45,519 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:46,031 - src.youtube - INFO - Found video ID: I37l6C7UB5w
+2025-06-11 08:57:46,033 - src.youtube - INFO - Updated video ID for 'NOPE YOUR TOO LATE I ALREADY DIED' by 'WIFISKELETON/O LANTERN': I37l6C7UB5w
+2025-06-11 08:57:46,034 - src.youtube - INFO - Getting video ID for "GNARLY KATSEYE" from YouTube
+2025-06-11 08:57:46,034 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:46,479 - src.youtube - INFO - Found video ID: R2-yomhYAj4
+2025-06-11 08:57:46,480 - src.youtube - INFO - Updated video ID for 'GNARLY' by 'KATSEYE': R2-yomhYAj4
+2025-06-11 08:57:46,480 - src.youtube - INFO - Getting video ID for "POOL GRAVAGERZ/KIKI WERA" from YouTube
+2025-06-11 08:57:46,481 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-11 08:57:46,865 - src.youtube - INFO - Found video ID: A6XQmLHeav0
+2025-06-11 08:57:46,867 - src.youtube - INFO - Updated video ID for 'POOL' by 'GRAVAGERZ/KIKI WERA': A6XQmLHeav0
+2025-06-11 08:57:46,867 - src.youtube - INFO - 27 video IDs updated successfully
+2025-06-11 08:57:46,868 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-06-11 08:57:46,868 - __main__ - INFO - YouTube video ID update process completed
