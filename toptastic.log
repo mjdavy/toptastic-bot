@@ -1,5 +1,2 @@
-2025-06-11 08:38:02,743 - __main__ - INFO - Starting YouTube video ID update process
-2025-06-11 08:38:02,745 - src.youtube - INFO - Updating video IDs for 0 songs
-2025-06-11 08:38:02,745 - src.youtube - INFO - 0 video IDs updated successfully
-2025-06-11 08:38:02,746 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-06-11 08:38:02,746 - __main__ - INFO - YouTube video ID update process completed
+2025-06-11 09:56:14,587 - src.scraper - INFO - Scraping chart data from: https://www.officialcharts.com/charts/singles-chart/20250610/7501/
+2025-06-11 09:56:14,813 - src.scraper - INFO - Scraped 100 songs from chart for date 2025-06-10
