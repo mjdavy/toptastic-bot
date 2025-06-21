@@ -1,26 +1,38 @@
-2025-06-14 03:20:29,138 - __main__ - INFO - Starting YouTube video ID update process
-2025-06-14 03:20:29,141 - src.youtube - INFO - Updating video IDs for 5 songs
-2025-06-14 03:20:29,141 - src.youtube - INFO - Getting video ID for "MANCHILD SABRINA CARPENTER" from YouTube
-2025-06-14 03:20:29,141 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-06-14 03:20:29,142 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-06-14 03:20:29,499 - src.youtube - INFO - Found video ID: aSugSGCC12I
-2025-06-14 03:20:29,501 - src.youtube - INFO - Updated video ID for 'MANCHILD' by 'SABRINA CARPENTER': aSugSGCC12I
-2025-06-14 03:20:29,501 - src.youtube - INFO - Getting video ID for "SAPPHIRE ED SHEERAN" from YouTube
-2025-06-14 03:20:29,502 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-06-14 03:20:29,811 - src.youtube - INFO - Found video ID: JgDNFQ2RaLQ
-2025-06-14 03:20:29,813 - src.youtube - INFO - Updated video ID for 'SAPPHIRE' by 'ED SHEERAN': JgDNFQ2RaLQ
-2025-06-14 03:20:29,813 - src.youtube - INFO - Getting video ID for "DIOR MK FT CHRYSTAL" from YouTube
-2025-06-14 03:20:29,814 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-06-14 03:20:30,175 - src.youtube - INFO - Found video ID: qXnqZo03PHY
-2025-06-14 03:20:30,176 - src.youtube - INFO - Updated video ID for 'DIOR' by 'MK FT CHRYSTAL': qXnqZo03PHY
-2025-06-14 03:20:30,176 - src.youtube - INFO - Getting video ID for "NEW YORK ADDISON RAE" from YouTube
-2025-06-14 03:20:30,177 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-06-14 03:20:30,491 - src.youtube - INFO - Found video ID: pn_uc5pZkwA
-2025-06-14 03:20:30,493 - src.youtube - INFO - Updated video ID for 'NEW YORK' by 'ADDISON RAE': pn_uc5pZkwA
-2025-06-14 03:20:30,493 - src.youtube - INFO - Getting video ID for "LET DOWN RADIOHEAD" from YouTube
-2025-06-14 03:20:30,493 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-06-14 03:20:30,869 - src.youtube - INFO - Found video ID: ZVgHPSyEIqk
-2025-06-14 03:20:30,870 - src.youtube - INFO - Updated video ID for 'LET DOWN' by 'RADIOHEAD': ZVgHPSyEIqk
-2025-06-14 03:20:30,870 - src.youtube - INFO - 5 video IDs updated successfully
-2025-06-14 03:20:30,871 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-06-14 03:20:30,872 - __main__ - INFO - YouTube video ID update process completed
+2025-06-21 03:21:13,235 - __main__ - INFO - Starting YouTube video ID update process
+2025-06-21 03:21:13,237 - src.youtube - INFO - Updating video IDs for 8 songs
+2025-06-21 03:21:13,237 - src.youtube - INFO - Getting video ID for "KILLIN' IT GIRL J-HOPE FT GLORILLA" from YouTube
+2025-06-21 03:21:13,237 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-06-21 03:21:13,239 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:13,628 - src.youtube - INFO - Found video ID: q9leDzlNEaY
+2025-06-21 03:21:13,630 - src.youtube - INFO - Updated video ID for 'KILLIN' IT GIRL' by 'J-HOPE FT GLORILLA': q9leDzlNEaY
+2025-06-21 03:21:13,631 - src.youtube - INFO - Getting video ID for "THE CONTRACT TWENTY ONE PILOTS" from YouTube
+2025-06-21 03:21:13,631 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:13,988 - src.youtube - INFO - Found video ID: QZfH7cFp3Ys
+2025-06-21 03:21:13,990 - src.youtube - INFO - Updated video ID for 'THE CONTRACT' by 'TWENTY ONE PILOTS': QZfH7cFp3Ys
+2025-06-21 03:21:13,990 - src.youtube - INFO - Getting video ID for "SUZANNE MARK RONSON & RAYE" from YouTube
+2025-06-21 03:21:13,991 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:14,307 - src.youtube - INFO - Found video ID: ev9GGwCrB4s
+2025-06-21 03:21:14,309 - src.youtube - INFO - Updated video ID for 'SUZANNE' by 'MARK RONSON & RAYE': ev9GGwCrB4s
+2025-06-21 03:21:14,309 - src.youtube - INFO - Getting video ID for "NO BROKE BOYS DISCO LINES & TINASHE" from YouTube
+2025-06-21 03:21:14,310 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:14,814 - src.youtube - INFO - Found video ID: nS-fOh1CfhQ
+2025-06-21 03:21:14,815 - src.youtube - INFO - Updated video ID for 'NO BROKE BOYS' by 'DISCO LINES & TINASHE': nS-fOh1CfhQ
+2025-06-21 03:21:14,816 - src.youtube - INFO - Getting video ID for "SPARKS COLDPLAY" from YouTube
+2025-06-21 03:21:14,816 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:15,136 - src.youtube - INFO - Found video ID: xno6lesVMJc
+2025-06-21 03:21:15,137 - src.youtube - INFO - Updated video ID for 'SPARKS' by 'COLDPLAY': xno6lesVMJc
+2025-06-21 03:21:15,138 - src.youtube - INFO - Getting video ID for "HOLY BLINDFOLD CHRIS BROWN" from YouTube
+2025-06-21 03:21:15,138 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:15,446 - src.youtube - INFO - Found video ID: OlbRsO5P2FQ
+2025-06-21 03:21:15,447 - src.youtube - INFO - Updated video ID for 'HOLY BLINDFOLD' by 'CHRIS BROWN': OlbRsO5P2FQ
+2025-06-21 03:21:15,447 - src.youtube - INFO - Getting video ID for "REIN ME IN SAM FENDER" from YouTube
+2025-06-21 03:21:15,448 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:15,999 - src.youtube - INFO - Found video ID: 3triLkS0nq4
+2025-06-21 03:21:16,000 - src.youtube - INFO - Updated video ID for 'REIN ME IN' by 'SAM FENDER': 3triLkS0nq4
+2025-06-21 03:21:16,001 - src.youtube - INFO - Getting video ID for "ART NEMZZZ FT LATTO" from YouTube
+2025-06-21 03:21:16,001 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-21 03:21:16,334 - src.youtube - INFO - Found video ID: UybnqDs2GDk
+2025-06-21 03:21:16,335 - src.youtube - INFO - Updated video ID for 'ART' by 'NEMZZZ FT LATTO': UybnqDs2GDk
+2025-06-21 03:21:16,335 - src.youtube - INFO - 8 video IDs updated successfully
+2025-06-21 03:21:16,337 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-06-21 03:21:16,337 - __main__ - INFO - YouTube video ID update process completed
