@@ -1,38 +1,18 @@
-2025-07-05 03:21:19,935 - __main__ - INFO - Starting YouTube video ID update process
-2025-07-05 03:21:19,938 - src.youtube - INFO - Updating video IDs for 8 songs
-2025-07-05 03:21:19,938 - src.youtube - INFO - Getting video ID for "SURVIVE LEWIS CAPALDI" from YouTube
-2025-07-05 03:21:19,938 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-07-05 03:21:19,940 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:20,670 - src.youtube - INFO - Found video ID: f-4TW5N9Wd0
-2025-07-05 03:21:20,673 - src.youtube - INFO - Updated video ID for 'SURVIVE' by 'LEWIS CAPALDI': f-4TW5N9Wd0
-2025-07-05 03:21:20,673 - src.youtube - INFO - Getting video ID for "YOUR IDOL SAJA BOYS/ANDREW CHOI/NECKWAV" from YouTube
-2025-07-05 03:21:20,674 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:21,069 - src.youtube - INFO - Found video ID: 8KmXjNoTe6w
-2025-07-05 03:21:21,071 - src.youtube - INFO - Updated video ID for 'YOUR IDOL' by 'SAJA BOYS/ANDREW CHOI/NECKWAV': 8KmXjNoTe6w
-2025-07-05 03:21:21,071 - src.youtube - INFO - Getting video ID for "ON MY MIND ALEX WARREN FT ROSE" from YouTube
-2025-07-05 03:21:21,072 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:21,470 - src.youtube - INFO - Found video ID: AX0jQYaIeDc
-2025-07-05 03:21:21,472 - src.youtube - INFO - Updated video ID for 'ON MY MIND' by 'ALEX WARREN FT ROSE': AX0jQYaIeDc
-2025-07-05 03:21:21,472 - src.youtube - INFO - Getting video ID for "HOW IT'S DONE HUNTR/X/EJAE/AUDREY NUNA/REI" from YouTube
-2025-07-05 03:21:21,473 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:21,886 - src.youtube - INFO - Found video ID: o8OjEIITii4
-2025-07-05 03:21:21,888 - src.youtube - INFO - Updated video ID for 'HOW IT'S DONE' by 'HUNTR/X/EJAE/AUDREY NUNA/REI': o8OjEIITii4
-2025-07-05 03:21:21,888 - src.youtube - INFO - Getting video ID for "SHAPESHIFTER LORDE" from YouTube
-2025-07-05 03:21:21,890 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:22,295 - src.youtube - INFO - Found video ID: Bkv-Qn1XM7o
-2025-07-05 03:21:22,296 - src.youtube - INFO - Updated video ID for 'SHAPESHIFTER' by 'LORDE': Bkv-Qn1XM7o
-2025-07-05 03:21:22,296 - src.youtube - INFO - Getting video ID for "GOLD J HUS FT ASAKE" from YouTube
-2025-07-05 03:21:22,297 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:22,662 - src.youtube - INFO - Found video ID: H8XzauZLbfc
-2025-07-05 03:21:22,664 - src.youtube - INFO - Updated video ID for 'GOLD' by 'J HUS FT ASAKE': H8XzauZLbfc
-2025-07-05 03:21:22,664 - src.youtube - INFO - Getting video ID for "NINE BALL ZACH BRYAN" from YouTube
-2025-07-05 03:21:22,665 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:23,026 - src.youtube - INFO - Found video ID: 3EQ_45laK4M
-2025-07-05 03:21:23,028 - src.youtube - INFO - Updated video ID for 'NINE BALL' by 'ZACH BRYAN': 3EQ_45laK4M
-2025-07-05 03:21:23,028 - src.youtube - INFO - Getting video ID for "REVIVAL ZACH BRYAN" from YouTube
-2025-07-05 03:21:23,028 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-05 03:21:23,478 - src.youtube - INFO - Found video ID: vzoLZ6R75WY
-2025-07-05 03:21:23,480 - src.youtube - INFO - Updated video ID for 'REVIVAL' by 'ZACH BRYAN': vzoLZ6R75WY
-2025-07-05 03:21:23,480 - src.youtube - INFO - 8 video IDs updated successfully
-2025-07-05 03:21:23,481 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-07-05 03:21:23,482 - __main__ - INFO - YouTube video ID update process completed
+2025-07-12 03:28:31,236 - __main__ - INFO - Starting YouTube video ID update process
+2025-07-12 03:28:31,239 - src.youtube - INFO - Updating video IDs for 3 songs
+2025-07-12 03:28:31,239 - src.youtube - INFO - Getting video ID for "ACQUIESCE OASIS" from YouTube
+2025-07-12 03:28:31,239 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-07-12 03:28:31,240 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-12 03:28:31,782 - src.youtube - INFO - Found video ID: BD4QhMeK6ek
+2025-07-12 03:28:31,785 - src.youtube - INFO - Updated video ID for 'ACQUIESCE' by 'OASIS': BD4QhMeK6ek
+2025-07-12 03:28:31,786 - src.youtube - INFO - Getting video ID for "WHAT DID I MISS DRAKE" from YouTube
+2025-07-12 03:28:31,787 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-12 03:28:32,373 - src.youtube - INFO - Found video ID: weU76DGHKU0
+2025-07-12 03:28:32,376 - src.youtube - INFO - Updated video ID for 'WHAT DID I MISS' by 'DRAKE': weU76DGHKU0
+2025-07-12 03:28:32,376 - src.youtube - INFO - Getting video ID for "TYRANT BEYONCE & DOLLY PARTON" from YouTube
+2025-07-12 03:28:32,377 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-12 03:28:32,813 - src.youtube - INFO - Found video ID: bgtuQptR1U4
+2025-07-12 03:28:32,815 - src.youtube - INFO - Updated video ID for 'TYRANT' by 'BEYONCE & DOLLY PARTON': bgtuQptR1U4
+2025-07-12 03:28:32,815 - src.youtube - INFO - 3 video IDs updated successfully
+2025-07-12 03:28:32,816 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-07-12 03:28:32,816 - __main__ - INFO - YouTube video ID update process completed
