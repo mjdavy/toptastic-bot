@@ -1,66 +1,74 @@
-2025-07-19 03:27:35,058 - __main__ - INFO - Starting YouTube video ID update process
-2025-07-19 03:27:35,060 - src.youtube - INFO - Updating video IDs for 15 songs
-2025-07-19 03:27:35,060 - src.youtube - INFO - Getting video ID for "DAISIES JUSTIN BIEBER" from YouTube
-2025-07-19 03:27:35,061 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-07-19 03:27:35,061 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:35,452 - src.youtube - INFO - Found video ID: LCmySMWuaYk
-2025-07-19 03:27:35,454 - src.youtube - INFO - Updated video ID for 'DAISIES' by 'JUSTIN BIEBER': LCmySMWuaYk
-2025-07-19 03:27:35,454 - src.youtube - INFO - Getting video ID for "JUMP BLACKPINK" from YouTube
-2025-07-19 03:27:35,455 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:35,864 - src.youtube - INFO - Found video ID: CgCVZdcKcqY
-2025-07-19 03:27:35,866 - src.youtube - INFO - Updated video ID for 'JUMP' by 'BLACKPINK': CgCVZdcKcqY
-2025-07-19 03:27:35,866 - src.youtube - INFO - Getting video ID for "YUKON JUSTIN BIEBER" from YouTube
-2025-07-19 03:27:35,867 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:36,214 - src.youtube - INFO - Found video ID: PNpsJ--XGOo
-2025-07-19 03:27:36,216 - src.youtube - INFO - Updated video ID for 'YUKON' by 'JUSTIN BIEBER': PNpsJ--XGOo
-2025-07-19 03:27:36,216 - src.youtube - INFO - Getting video ID for "ALL I CAN TAKE JUSTIN BIEBER" from YouTube
-2025-07-19 03:27:36,217 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:36,735 - src.youtube - INFO - Found video ID: ogVL5Hdh8Po
-2025-07-19 03:27:36,737 - src.youtube - INFO - Updated video ID for 'ALL I CAN TAKE' by 'JUSTIN BIEBER': ogVL5Hdh8Po
-2025-07-19 03:27:36,737 - src.youtube - INFO - Getting video ID for "BACK TO ME RUDIMENTAL & JESS GLYNNE" from YouTube
-2025-07-19 03:27:36,738 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:37,152 - src.youtube - INFO - Found video ID: CSfSncwH_ro
-2025-07-19 03:27:37,153 - src.youtube - INFO - Updated video ID for 'BACK TO ME' by 'RUDIMENTAL & JESS GLYNNE': CSfSncwH_ro
-2025-07-19 03:27:37,153 - src.youtube - INFO - Getting video ID for "LADY LADY OLIVIA DEAN" from YouTube
-2025-07-19 03:27:37,154 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:37,623 - src.youtube - INFO - Found video ID: JN_Vyg_wURY
-2025-07-19 03:27:37,625 - src.youtube - INFO - Updated video ID for 'LADY LADY' by 'OLIVIA DEAN': JN_Vyg_wURY
-2025-07-19 03:27:37,625 - src.youtube - INFO - Getting video ID for "CHAMPAIN & VACAY TRAVIS SCOTT/DON TOLIVER" from YouTube
-2025-07-19 03:27:37,626 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:37,982 - src.youtube - INFO - Found video ID: K3crzpqVcQQ
-2025-07-19 03:27:37,984 - src.youtube - INFO - Updated video ID for 'CHAMPAIN & VACAY' by 'TRAVIS SCOTT/DON TOLIVER': K3crzpqVcQQ
-2025-07-19 03:27:37,984 - src.youtube - INFO - Getting video ID for "KICK OUT TRAVIS SCOTT" from YouTube
-2025-07-19 03:27:37,985 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:38,480 - src.youtube - INFO - Found video ID: EBr7YTNBzoM
-2025-07-19 03:27:38,482 - src.youtube - INFO - Updated video ID for 'KICK OUT' by 'TRAVIS SCOTT': EBr7YTNBzoM
-2025-07-19 03:27:38,482 - src.youtube - INFO - Getting video ID for "DUMBO TRAVIS SCOTT" from YouTube
-2025-07-19 03:27:38,483 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:38,889 - src.youtube - INFO - Found video ID: 8G8Fn0YRjvM
-2025-07-19 03:27:38,890 - src.youtube - INFO - Updated video ID for 'DUMBO' by 'TRAVIS SCOTT': 8G8Fn0YRjvM
-2025-07-19 03:27:38,891 - src.youtube - INFO - Getting video ID for "TAKE MY MIND WIZTHEMC/BEES & HONEY" from YouTube
-2025-07-19 03:27:38,891 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:39,265 - src.youtube - INFO - Found video ID: rC-bvpmyYsQ
-2025-07-19 03:27:39,266 - src.youtube - INFO - Updated video ID for 'TAKE MY MIND' by 'WIZTHEMC/BEES & HONEY': rC-bvpmyYsQ
-2025-07-19 03:27:39,266 - src.youtube - INFO - Getting video ID for "CHAINS & WHIPS CLIPSE/LAMAR/PUSHA T/MALICE" from YouTube
-2025-07-19 03:27:39,267 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:39,619 - src.youtube - INFO - Found video ID: ecIH-4RbbOk
-2025-07-19 03:27:39,620 - src.youtube - INFO - Updated video ID for 'CHAINS & WHIPS' by 'CLIPSE/LAMAR/PUSHA T/MALICE': ecIH-4RbbOk
-2025-07-19 03:27:39,620 - src.youtube - INFO - Getting video ID for "LOSE MY MIND DON TOLIVER & DOJA CAT" from YouTube
-2025-07-19 03:27:39,621 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:40,031 - src.youtube - INFO - Found video ID: WWEs82u37Mw
-2025-07-19 03:27:40,033 - src.youtube - INFO - Updated video ID for 'LOSE MY MIND' by 'DON TOLIVER & DOJA CAT': WWEs82u37Mw
-2025-07-19 03:27:40,033 - src.youtube - INFO - Getting video ID for "MY MIND IS A MOUNTAIN DEFTONES" from YouTube
-2025-07-19 03:27:40,034 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:40,377 - src.youtube - INFO - Found video ID: eVqZrI9JE6Q
-2025-07-19 03:27:40,380 - src.youtube - INFO - Updated video ID for 'MY MIND IS A MOUNTAIN' by 'DEFTONES': eVqZrI9JE6Q
-2025-07-19 03:27:40,381 - src.youtube - INFO - Getting video ID for "VODKA CRANBERRY CONAN GRAY" from YouTube
-2025-07-19 03:27:40,382 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:40,806 - src.youtube - INFO - Found video ID: Yzbvv8WdP9k
-2025-07-19 03:27:40,809 - src.youtube - INFO - Updated video ID for 'VODKA CRANBERRY' by 'CONAN GRAY': Yzbvv8WdP9k
-2025-07-19 03:27:40,809 - src.youtube - INFO - Getting video ID for "IS IT TYLA" from YouTube
-2025-07-19 03:27:40,810 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-07-19 03:27:41,214 - src.youtube - INFO - Found video ID: SZpiiixlHWY
-2025-07-19 03:27:41,216 - src.youtube - INFO - Updated video ID for 'IS IT' by 'TYLA': SZpiiixlHWY
-2025-07-19 03:27:41,216 - src.youtube - INFO - 15 video IDs updated successfully
-2025-07-19 03:27:41,218 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-07-19 03:27:41,218 - __main__ - INFO - YouTube video ID update process completed
+2025-07-26 03:29:10,055 - __main__ - INFO - Starting YouTube video ID update process
+2025-07-26 03:29:10,057 - src.youtube - INFO - Updating video IDs for 17 songs
+2025-07-26 03:29:10,058 - src.youtube - INFO - Getting video ID for "ETERNITY ALEX WARREN" from YouTube
+2025-07-26 03:29:10,058 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-07-26 03:29:10,059 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:10,589 - src.youtube - INFO - Found video ID: jXqf3uqLkkU
+2025-07-26 03:29:10,591 - src.youtube - INFO - Updated video ID for 'ETERNITY' by 'ALEX WARREN': jXqf3uqLkkU
+2025-07-26 03:29:10,591 - src.youtube - INFO - Getting video ID for "SODA POP SAJA BOYS/ANDREW CHOI/NECKWAV" from YouTube
+2025-07-26 03:29:10,592 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:11,114 - src.youtube - INFO - Found video ID: 852YR72s_pk
+2025-07-26 03:29:11,116 - src.youtube - INFO - Updated video ID for 'SODA POP' by 'SAJA BOYS/ANDREW CHOI/NECKWAV': 852YR72s_pk
+2025-07-26 03:29:11,116 - src.youtube - INFO - Getting video ID for "PARANOID BLACK SABBATH" from YouTube
+2025-07-26 03:29:11,117 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:11,596 - src.youtube - INFO - Found video ID: 0qanF-91aJo
+2025-07-26 03:29:11,598 - src.youtube - INFO - Updated video ID for 'PARANOID' by 'BLACK SABBATH': 0qanF-91aJo
+2025-07-26 03:29:11,598 - src.youtube - INFO - Getting video ID for "BIG POE TYLER/PHARRELL/SK8BRD" from YouTube
+2025-07-26 03:29:11,599 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:11,984 - src.youtube - INFO - Found video ID: IGXS45Gp8jA
+2025-07-26 03:29:11,986 - src.youtube - INFO - Updated video ID for 'BIG POE' by 'TYLER/PHARRELL/SK8BRD': IGXS45Gp8jA
+2025-07-26 03:29:11,986 - src.youtube - INFO - Getting video ID for "SUGAR ON MY TONGUE TYLER THE CREATOR" from YouTube
+2025-07-26 03:29:11,987 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:12,408 - src.youtube - INFO - Found video ID: phELKuqnaS4
+2025-07-26 03:29:12,410 - src.youtube - INFO - Updated video ID for 'SUGAR ON MY TONGUE' by 'TYLER THE CREATOR': phELKuqnaS4
+2025-07-26 03:29:12,410 - src.youtube - INFO - Getting video ID for "GO BABY JUSTIN BIEBER" from YouTube
+2025-07-26 03:29:12,411 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:12,842 - src.youtube - INFO - Found video ID: cfhRITCzKGE
+2025-07-26 03:29:12,843 - src.youtube - INFO - Updated video ID for 'GO BABY' by 'JUSTIN BIEBER': cfhRITCzKGE
+2025-07-26 03:29:12,844 - src.youtube - INFO - Getting video ID for "OUT OUT SKYE NEWMAN" from YouTube
+2025-07-26 03:29:12,844 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:13,273 - src.youtube - INFO - Found video ID: Pp86DuAMZyU
+2025-07-26 03:29:13,277 - src.youtube - INFO - Updated video ID for 'OUT OUT' by 'SKYE NEWMAN': Pp86DuAMZyU
+2025-07-26 03:29:13,277 - src.youtube - INFO - Getting video ID for "ALL THIS TIME SONNY FODERA & JAZZY" from YouTube
+2025-07-26 03:29:13,278 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:13,767 - src.youtube - INFO - Found video ID: FkV9Mdhnsa8
+2025-07-26 03:29:13,770 - src.youtube - INFO - Updated video ID for 'ALL THIS TIME' by 'SONNY FODERA & JAZZY': FkV9Mdhnsa8
+2025-07-26 03:29:13,770 - src.youtube - INFO - Getting video ID for "PUNKROCKER TEDDYBEARS FT IGGY POP" from YouTube
+2025-07-26 03:29:13,771 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:14,200 - src.youtube - INFO - Found video ID: 8P09rxVaQAM
+2025-07-26 03:29:14,203 - src.youtube - INFO - Updated video ID for 'PUNKROCKER' by 'TEDDYBEARS FT IGGY POP': 8P09rxVaQAM
+2025-07-26 03:29:14,203 - src.youtube - INFO - Getting video ID for "CRAZY TRAIN OZZY OSBOURNE" from YouTube
+2025-07-26 03:29:14,204 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:14,767 - src.youtube - INFO - Found video ID: tMDFv5m18Pw
+2025-07-26 03:29:14,769 - src.youtube - INFO - Updated video ID for 'CRAZY TRAIN' by 'OZZY OSBOURNE': tMDFv5m18Pw
+2025-07-26 03:29:14,769 - src.youtube - INFO - Getting video ID for "SUCKA FREE TYLER THE CREATOR" from YouTube
+2025-07-26 03:29:14,770 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:15,285 - src.youtube - INFO - Found video ID: OU123dUjEeQ
+2025-07-26 03:29:15,289 - src.youtube - INFO - Updated video ID for 'SUCKA FREE' by 'TYLER THE CREATOR': OU123dUjEeQ
+2025-07-26 03:29:15,289 - src.youtube - INFO - Getting video ID for "DEVIL IN DISGUISE MARINO" from YouTube
+2025-07-26 03:29:15,290 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:15,692 - src.youtube - INFO - Found video ID: PrSjlpWu0cw
+2025-07-26 03:29:15,694 - src.youtube - INFO - Updated video ID for 'DEVIL IN DISGUISE' by 'MARINO': PrSjlpWu0cw
+2025-07-26 03:29:15,694 - src.youtube - INFO - Getting video ID for "3X JIM LEGXACY & DAVE" from YouTube
+2025-07-26 03:29:15,695 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:16,109 - src.youtube - INFO - Found video ID: wkZC8oE8R7M
+2025-07-26 03:29:16,111 - src.youtube - INFO - Updated video ID for '3X' by 'JIM LEGXACY & DAVE': wkZC8oE8R7M
+2025-07-26 03:29:16,111 - src.youtube - INFO - Getting video ID for "LET HIM GO DENON REED & CRU2" from YouTube
+2025-07-26 03:29:16,112 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:16,598 - src.youtube - INFO - Found video ID: 0MqAfk8-CpA
+2025-07-26 03:29:16,600 - src.youtube - INFO - Updated video ID for 'LET HIM GO' by 'DENON REED & CRU2': 0MqAfk8-CpA
+2025-07-26 03:29:16,600 - src.youtube - INFO - Getting video ID for "WAR PIGS BLACK SABBATH" from YouTube
+2025-07-26 03:29:16,601 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:17,088 - src.youtube - INFO - Found video ID: bc5Nk1DXyEY
+2025-07-26 03:29:17,091 - src.youtube - INFO - Updated video ID for 'WAR PIGS' by 'BLACK SABBATH': bc5Nk1DXyEY
+2025-07-26 03:29:17,091 - src.youtube - INFO - Getting video ID for "IRON MAN BLACK SABBATH" from YouTube
+2025-07-26 03:29:17,092 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:17,522 - src.youtube - INFO - Found video ID: F01UTYg79KY
+2025-07-26 03:29:17,524 - src.youtube - INFO - Updated video ID for 'IRON MAN' by 'BLACK SABBATH': F01UTYg79KY
+2025-07-26 03:29:17,524 - src.youtube - INFO - Getting video ID for "CHANGES YUNGBLUD/BETTENCOURT/BELLO" from YouTube
+2025-07-26 03:29:17,524 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-07-26 03:29:17,981 - src.youtube - INFO - Found video ID: oJZmO5mByVY
+2025-07-26 03:29:17,983 - src.youtube - INFO - Updated video ID for 'CHANGES' by 'YUNGBLUD/BETTENCOURT/BELLO': oJZmO5mByVY
+2025-07-26 03:29:17,983 - src.youtube - INFO - 17 video IDs updated successfully
+2025-07-26 03:29:17,984 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-07-26 03:29:17,984 - __main__ - INFO - YouTube video ID update process completed
