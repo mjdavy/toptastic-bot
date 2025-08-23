@@ -1,38 +1,14 @@
-2025-08-16 03:22:29,616 - __main__ - INFO - Starting YouTube video ID update process
-2025-08-16 03:22:29,618 - src.youtube - INFO - Updating video IDs for 8 songs
-2025-08-16 03:22:29,618 - src.youtube - INFO - Getting video ID for "A LITTLE MORE ED SHEERAN" from YouTube
-2025-08-16 03:22:29,618 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-08-16 03:22:29,619 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:30,059 - src.youtube - INFO - Found video ID: O_0Wn73AnC8
-2025-08-16 03:22:30,061 - src.youtube - INFO - Updated video ID for 'A LITTLE MORE' by 'ED SHEERAN': O_0Wn73AnC8
-2025-08-16 03:22:30,061 - src.youtube - INFO - Getting video ID for "CIGARETTES & ALCOHOL OASIS" from YouTube
-2025-08-16 03:22:30,062 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:30,541 - src.youtube - INFO - Found video ID: SaeLKhRnkhQ
-2025-08-16 03:22:30,542 - src.youtube - INFO - Updated video ID for 'CIGARETTES & ALCOHOL' by 'OASIS': SaeLKhRnkhQ
-2025-08-16 03:22:30,542 - src.youtube - INFO - Getting video ID for "FOREVER BE MINE GUNNA & WIZKID" from YouTube
-2025-08-16 03:22:30,543 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:31,002 - src.youtube - INFO - Found video ID: jBaL41mKS8U
-2025-08-16 03:22:31,003 - src.youtube - INFO - Updated video ID for 'FOREVER BE MINE' by 'GUNNA & WIZKID': jBaL41mKS8U
-2025-08-16 03:22:31,003 - src.youtube - INFO - Getting video ID for "WGFT GUNNA & BURNA BOY" from YouTube
-2025-08-16 03:22:31,004 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:31,468 - src.youtube - INFO - Found video ID: mANvg9R1xeI
-2025-08-16 03:22:31,469 - src.youtube - INFO - Updated video ID for 'WGFT' by 'GUNNA & BURNA BOY': mANvg9R1xeI
-2025-08-16 03:22:31,469 - src.youtube - INFO - Getting video ID for "SO FAR SO FAKE PIERCE THE VEIL" from YouTube
-2025-08-16 03:22:31,470 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:31,850 - src.youtube - INFO - Found video ID: eCA_AOMLmHE
-2025-08-16 03:22:31,852 - src.youtube - INFO - Updated video ID for 'SO FAR SO FAKE' by 'PIERCE THE VEIL': eCA_AOMLmHE
-2025-08-16 03:22:31,852 - src.youtube - INFO - Getting video ID for "THE SICK BELLA KAY" from YouTube
-2025-08-16 03:22:31,853 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:32,312 - src.youtube - INFO - Found video ID: Y628DD6poxQ
-2025-08-16 03:22:32,658 - src.youtube - INFO - Updated video ID for 'THE SICK' by 'BELLA KAY': Y628DD6poxQ
-2025-08-16 03:22:32,658 - src.youtube - INFO - Getting video ID for "JUST SAY DAT GUNNA" from YouTube
-2025-08-16 03:22:32,659 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:33,095 - src.youtube - INFO - Found video ID: 8gy-Y9tWK6M
-2025-08-16 03:22:33,098 - src.youtube - INFO - Updated video ID for 'JUST SAY DAT' by 'GUNNA': 8gy-Y9tWK6M
-2025-08-16 03:22:33,098 - src.youtube - INFO - Getting video ID for "BOWERY ZACH BRYAN/KINGS OF LEON" from YouTube
-2025-08-16 03:22:33,099 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-16 03:22:33,552 - src.youtube - INFO - Found video ID: s_bWfvdeOrA
-2025-08-16 03:22:33,553 - src.youtube - INFO - Updated video ID for 'BOWERY' by 'ZACH BRYAN/KINGS OF LEON': s_bWfvdeOrA
-2025-08-16 03:22:33,554 - src.youtube - INFO - 8 video IDs updated successfully
-2025-08-16 03:22:33,555 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-08-16 03:22:33,555 - __main__ - INFO - YouTube video ID update process completed
+2025-08-23 03:16:05,228 - __main__ - INFO - Starting YouTube video ID update process
+2025-08-23 03:16:05,230 - src.youtube - INFO - Updating video IDs for 2 songs
+2025-08-23 03:16:05,230 - src.youtube - INFO - Getting video ID for "MAN I NEED OLIVIA DEAN" from YouTube
+2025-08-23 03:16:05,231 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-08-23 03:16:05,232 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 03:16:05,721 - src.youtube - INFO - Found video ID: oIv_Y2RPQ_A
+2025-08-23 03:16:05,724 - src.youtube - INFO - Updated video ID for 'MAN I NEED' by 'OLIVIA DEAN': oIv_Y2RPQ_A
+2025-08-23 03:16:05,724 - src.youtube - INFO - Getting video ID for "DRUM SHOW TWENTY ONE PILOTS" from YouTube
+2025-08-23 03:16:05,725 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 03:16:06,257 - src.youtube - INFO - Found video ID: 5dA094oAy-g
+2025-08-23 03:16:06,259 - src.youtube - INFO - Updated video ID for 'DRUM SHOW' by 'TWENTY ONE PILOTS': 5dA094oAy-g
+2025-08-23 03:16:06,259 - src.youtube - INFO - 2 video IDs updated successfully
+2025-08-23 03:16:06,260 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-08-23 03:16:06,260 - __main__ - INFO - YouTube video ID update process completed
