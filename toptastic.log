@@ -1,14 +1,50 @@
-2025-08-23 03:16:05,228 - __main__ - INFO - Starting YouTube video ID update process
-2025-08-23 03:16:05,230 - src.youtube - INFO - Updating video IDs for 2 songs
-2025-08-23 03:16:05,230 - src.youtube - INFO - Getting video ID for "MAN I NEED OLIVIA DEAN" from YouTube
-2025-08-23 03:16:05,231 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-08-23 03:16:05,232 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-23 03:16:05,721 - src.youtube - INFO - Found video ID: oIv_Y2RPQ_A
-2025-08-23 03:16:05,724 - src.youtube - INFO - Updated video ID for 'MAN I NEED' by 'OLIVIA DEAN': oIv_Y2RPQ_A
-2025-08-23 03:16:05,724 - src.youtube - INFO - Getting video ID for "DRUM SHOW TWENTY ONE PILOTS" from YouTube
-2025-08-23 03:16:05,725 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-08-23 03:16:06,257 - src.youtube - INFO - Found video ID: 5dA094oAy-g
-2025-08-23 03:16:06,259 - src.youtube - INFO - Updated video ID for 'DRUM SHOW' by 'TWENTY ONE PILOTS': 5dA094oAy-g
-2025-08-23 03:16:06,259 - src.youtube - INFO - 2 video IDs updated successfully
-2025-08-23 03:16:06,260 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-08-23 03:16:06,260 - __main__ - INFO - YouTube video ID update process completed
+2025-08-30 03:11:44,550 - __main__ - INFO - Starting YouTube video ID update process
+2025-08-30 03:11:44,553 - src.youtube - INFO - Updating video IDs for 11 songs
+2025-08-30 03:11:44,553 - src.youtube - INFO - Getting video ID for "JEALOUS TYPE DOJA CAT" from YouTube
+2025-08-30 03:11:44,553 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-08-30 03:11:44,554 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:45,056 - src.youtube - INFO - Found video ID: lv1MwS56aCo
+2025-08-30 03:11:45,058 - src.youtube - INFO - Updated video ID for 'JEALOUS TYPE' by 'DOJA CAT': lv1MwS56aCo
+2025-08-30 03:11:45,058 - src.youtube - INFO - Getting video ID for "CEREMONY STRAY KIDS" from YouTube
+2025-08-30 03:11:45,059 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:45,435 - src.youtube - INFO - Found video ID: foMUSXnzntI
+2025-08-30 03:11:45,438 - src.youtube - INFO - Updated video ID for 'CEREMONY' by 'STRAY KIDS': foMUSXnzntI
+2025-08-30 03:11:45,438 - src.youtube - INFO - Getting video ID for "BREAKIN DISHES RIHANNA" from YouTube
+2025-08-30 03:11:45,439 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:45,893 - src.youtube - INFO - Found video ID: rrrCrLL81Nk
+2025-08-30 03:11:45,895 - src.youtube - INFO - Updated video ID for 'BREAKIN DISHES' by 'RIHANNA': rrrCrLL81Nk
+2025-08-30 03:11:45,895 - src.youtube - INFO - Getting video ID for "NO COMMENT FREDO" from YouTube
+2025-08-30 03:11:45,896 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:46,258 - src.youtube - INFO - Found video ID: WPeou6xLdaM
+2025-08-30 03:11:46,259 - src.youtube - INFO - Updated video ID for 'NO COMMENT' by 'FREDO': WPeou6xLdaM
+2025-08-30 03:11:46,260 - src.youtube - INFO - Getting video ID for "IF HE WANTED TO HE WOULD PERRIE" from YouTube
+2025-08-30 03:11:46,260 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:46,790 - src.youtube - INFO - Found video ID: v0eDh-jFEuU
+2025-08-30 03:11:47,303 - src.youtube - INFO - Updated video ID for 'IF HE WANTED TO HE WOULD' by 'PERRIE': v0eDh-jFEuU
+2025-08-30 03:11:47,304 - src.youtube - INFO - Getting video ID for "EVERYBODY SCREAM FLORENCE & THE MACHINE" from YouTube
+2025-08-30 03:11:47,304 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:47,781 - src.youtube - INFO - Found video ID: 03iBgkXb1EE
+2025-08-30 03:11:47,948 - src.youtube - INFO - Updated video ID for 'EVERYBODY SCREAM' by 'FLORENCE & THE MACHINE': 03iBgkXb1EE
+2025-08-30 03:11:47,949 - src.youtube - INFO - Getting video ID for "NIGHTS LIKE THESE RUDIMENTAL FT RAG'N'BONE MAN" from YouTube
+2025-08-30 03:11:47,950 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:48,453 - src.youtube - INFO - Found video ID: ijahKmNImlU
+2025-08-30 03:11:48,455 - src.youtube - INFO - Updated video ID for 'NIGHTS LIKE THESE' by 'RUDIMENTAL FT RAG'N'BONE MAN': ijahKmNImlU
+2025-08-30 03:11:48,455 - src.youtube - INFO - Getting video ID for "BACK 2 BACK SKEPTA & FRED AGAIN" from YouTube
+2025-08-30 03:11:48,456 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:48,865 - src.youtube - INFO - Found video ID: yydAZAy2_LU
+2025-08-30 03:11:48,867 - src.youtube - INFO - Updated video ID for 'BACK 2 BACK' by 'SKEPTA & FRED AGAIN': yydAZAy2_LU
+2025-08-30 03:11:48,867 - src.youtube - INFO - Getting video ID for "JUST TWO GIRLS WOLF ALICE" from YouTube
+2025-08-30 03:11:48,868 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:49,418 - src.youtube - INFO - Found video ID: 3LlvZRCS6OE
+2025-08-30 03:11:49,419 - src.youtube - INFO - Updated video ID for 'JUST TWO GIRLS' by 'WOLF ALICE': 3LlvZRCS6OE
+2025-08-30 03:11:49,419 - src.youtube - INFO - Getting video ID for "MAKE BELIEVE LUKE DEAN & OMAR+" from YouTube
+2025-08-30 03:11:49,420 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:49,912 - src.youtube - INFO - Found video ID: W7ThRlBDjfg
+2025-08-30 03:11:49,914 - src.youtube - INFO - Updated video ID for 'MAKE BELIEVE' by 'LUKE DEAN & OMAR+': W7ThRlBDjfg
+2025-08-30 03:11:49,914 - src.youtube - INFO - Getting video ID for "MAKE ME FEEL OSKAR MED K" from YouTube
+2025-08-30 03:11:49,915 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-30 03:11:50,408 - src.youtube - INFO - Found video ID: vwXTBQFq_3E
+2025-08-30 03:11:50,409 - src.youtube - INFO - Updated video ID for 'MAKE ME FEEL' by 'OSKAR MED K': vwXTBQFq_3E
+2025-08-30 03:11:50,409 - src.youtube - INFO - 11 video IDs updated successfully
+2025-08-30 03:11:50,411 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-08-30 03:11:50,411 - __main__ - INFO - YouTube video ID update process completed
