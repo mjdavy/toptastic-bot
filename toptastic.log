@@ -1,30 +1,42 @@
-2025-09-06 03:09:58,250 - __main__ - INFO - Starting YouTube video ID update process
-2025-09-06 03:09:58,252 - src.youtube - INFO - Updating video IDs for 6 songs
-2025-09-06 03:09:58,252 - src.youtube - INFO - Getting video ID for "TEARS SABRINA CARPENTER" from YouTube
-2025-09-06 03:09:58,252 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-09-06 03:09:58,253 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-06 03:09:58,799 - src.youtube - INFO - Found video ID: V9vuCByb6js
-2025-09-06 03:09:58,801 - src.youtube - INFO - Updated video ID for 'TEARS' by 'SABRINA CARPENTER': V9vuCByb6js
-2025-09-06 03:09:58,801 - src.youtube - INFO - Getting video ID for "MY MAN ON WILLPOWER SABRINA CARPENTER" from YouTube
-2025-09-06 03:09:58,802 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-06 03:09:59,272 - src.youtube - INFO - Found video ID: KbzNB2sRnVQ
-2025-09-06 03:09:59,273 - src.youtube - INFO - Updated video ID for 'MY MAN ON WILLPOWER' by 'SABRINA CARPENTER': KbzNB2sRnVQ
-2025-09-06 03:09:59,273 - src.youtube - INFO - Getting video ID for "BREAKIN' DISHES RIHANNA" from YouTube
-2025-09-06 03:09:59,274 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-06 03:09:59,699 - src.youtube - INFO - Found video ID: rrrCrLL81Nk
-2025-09-06 03:09:59,700 - src.youtube - INFO - Updated video ID for 'BREAKIN' DISHES' by 'RIHANNA': rrrCrLL81Nk
-2025-09-06 03:09:59,700 - src.youtube - INFO - Getting video ID for "LONDON SKEPTA & FRED AGAIN" from YouTube
-2025-09-06 03:09:59,701 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-06 03:10:00,093 - src.youtube - INFO - Found video ID: JTqlDlRayfk
-2025-09-06 03:10:00,095 - src.youtube - INFO - Updated video ID for 'LONDON' by 'SKEPTA & FRED AGAIN': JTqlDlRayfk
-2025-09-06 03:10:00,095 - src.youtube - INFO - Getting video ID for "I THINK I LIKE YOU BETTER WHEN YOU'RE RENEE RAPP" from YouTube
-2025-09-06 03:10:00,096 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-06 03:10:00,725 - src.youtube - INFO - Found video ID: UrKffSWHr8g
-2025-09-06 03:10:00,727 - src.youtube - INFO - Updated video ID for 'I THINK I LIKE YOU BETTER WHEN YOU'RE' by 'RENEE RAPP': UrKffSWHr8g
-2025-09-06 03:10:00,727 - src.youtube - INFO - Getting video ID for "WHEN A GOOD MAN CRIES CMAT" from YouTube
-2025-09-06 03:10:00,728 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-06 03:10:01,124 - src.youtube - INFO - Found video ID: ADfHrteW-QE
-2025-09-06 03:10:01,125 - src.youtube - INFO - Updated video ID for 'WHEN A GOOD MAN CRIES' by 'CMAT': ADfHrteW-QE
-2025-09-06 03:10:01,126 - src.youtube - INFO - 6 video IDs updated successfully
-2025-09-06 03:10:01,127 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-09-06 03:10:01,127 - __main__ - INFO - YouTube video ID update process completed
+2025-09-13 03:05:27,620 - __main__ - INFO - Starting YouTube video ID update process
+2025-09-13 03:05:27,622 - src.youtube - INFO - Updating video IDs for 9 songs
+2025-09-13 03:05:27,622 - src.youtube - INFO - Getting video ID for "WHEN DID YOU GET HOT SABRINA CARPENTER" from YouTube
+2025-09-13 03:05:27,622 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-09-13 03:05:27,623 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:28,078 - src.youtube - INFO - Found video ID: bnhV-OBnGCE
+2025-09-13 03:05:28,080 - src.youtube - INFO - Updated video ID for 'WHEN DID YOU GET HOT' by 'SABRINA CARPENTER': bnhV-OBnGCE
+2025-09-13 03:05:28,080 - src.youtube - INFO - Getting video ID for "THE DEAD DANCE LADY GAGA" from YouTube
+2025-09-13 03:05:28,081 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:28,577 - src.youtube - INFO - Found video ID: xGaZBfJOyAc
+2025-09-13 03:05:28,578 - src.youtube - INFO - Updated video ID for 'THE DEAD DANCE' by 'LADY GAGA': xGaZBfJOyAc
+2025-09-13 03:05:28,578 - src.youtube - INFO - Getting video ID for "OCEAN CALVIN HARRIS/JESSIE REYEZ" from YouTube
+2025-09-13 03:05:28,579 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:28,952 - src.youtube - INFO - Found video ID: Tz8ullZfVvo
+2025-09-13 03:05:28,954 - src.youtube - INFO - Updated video ID for 'OCEAN' by 'CALVIN HARRIS/JESSIE REYEZ': Tz8ullZfVvo
+2025-09-13 03:05:28,954 - src.youtube - INFO - Getting video ID for "SPEED DEMON JUSTIN BIEBER" from YouTube
+2025-09-13 03:05:28,955 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:29,478 - src.youtube - INFO - Found video ID: PmI-BHkepkU
+2025-09-13 03:05:29,480 - src.youtube - INFO - Updated video ID for 'SPEED DEMON' by 'JUSTIN BIEBER': PmI-BHkepkU
+2025-09-13 03:05:29,480 - src.youtube - INFO - Getting video ID for "LOSER TAME IMPALA" from YouTube
+2025-09-13 03:05:29,481 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:29,820 - src.youtube - INFO - Found video ID: s3a4OQR-10M
+2025-09-13 03:05:29,822 - src.youtube - INFO - Updated video ID for 'LOSER' by 'TAME IMPALA': s3a4OQR-10M
+2025-09-13 03:05:29,822 - src.youtube - INFO - Getting video ID for "SOMEBODY LOVES ME - PT 2 PARTYNEXTDOOR/DRAKE/COBAIN" from YouTube
+2025-09-13 03:05:29,823 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:30,297 - src.youtube - INFO - Found video ID: covlWWrrRhE
+2025-09-13 03:05:30,298 - src.youtube - INFO - Updated video ID for 'SOMEBODY LOVES ME - PT 2' by 'PARTYNEXTDOOR/DRAKE/COBAIN': covlWWrrRhE
+2025-09-13 03:05:30,298 - src.youtube - INFO - Getting video ID for "SPIDERS LOLA YOUNG" from YouTube
+2025-09-13 03:05:30,299 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:30,742 - src.youtube - INFO - Found video ID: jmvCwjzpfuk
+2025-09-13 03:05:30,743 - src.youtube - INFO - Updated video ID for 'SPIDERS' by 'LOLA YOUNG': jmvCwjzpfuk
+2025-09-13 03:05:30,743 - src.youtube - INFO - Getting video ID for "END OF YOU POPPY/AMY LEE/LAPLANTE" from YouTube
+2025-09-13 03:05:30,744 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:31,263 - src.youtube - INFO - Found video ID: 3rS83uI0Wak
+2025-09-13 03:05:31,264 - src.youtube - INFO - Updated video ID for 'END OF YOU' by 'POPPY/AMY LEE/LAPLANTE': 3rS83uI0Wak
+2025-09-13 03:05:31,264 - src.youtube - INFO - Getting video ID for "WATERFALLS JAMES HYPE/B HARVEY/S HARPER" from YouTube
+2025-09-13 03:05:31,265 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-13 03:05:31,771 - src.youtube - INFO - Found video ID: G-VVVGALi1A
+2025-09-13 03:05:31,772 - src.youtube - INFO - Updated video ID for 'WATERFALLS' by 'JAMES HYPE/B HARVEY/S HARPER': G-VVVGALi1A
+2025-09-13 03:05:31,772 - src.youtube - INFO - 9 video IDs updated successfully
+2025-09-13 03:05:31,773 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-09-13 03:05:31,774 - __main__ - INFO - YouTube video ID update process completed
