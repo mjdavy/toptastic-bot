@@ -1,34 +1,26 @@
-2025-09-20 03:09:54,220 - __main__ - INFO - Starting YouTube video ID update process
-2025-09-20 03:09:54,222 - src.youtube - INFO - Updating video IDs for 7 songs
-2025-09-20 03:09:54,222 - src.youtube - INFO - Getting video ID for "CAMERA ED SHEERAN" from YouTube
-2025-09-20 03:09:54,222 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-09-20 03:09:54,223 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:54,746 - src.youtube - INFO - Found video ID: O8WXFI_MSAI
-2025-09-20 03:09:54,748 - src.youtube - INFO - Updated video ID for 'CAMERA' by 'ED SHEERAN': O8WXFI_MSAI
-2025-09-20 03:09:54,748 - src.youtube - INFO - Getting video ID for "CITY WALLS TWENTY ONE PILOTS" from YouTube
-2025-09-20 03:09:54,749 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:55,218 - src.youtube - INFO - Found video ID: 5Ozjel72yjQ
-2025-09-20 03:09:55,220 - src.youtube - INFO - Updated video ID for 'CITY WALLS' by 'TWENTY ONE PILOTS': 5Ozjel72yjQ
-2025-09-20 03:09:55,220 - src.youtube - INFO - Getting video ID for "UNCONDITIONAL JADE" from YouTube
-2025-09-20 03:09:55,220 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:55,700 - src.youtube - INFO - Found video ID: cu4--ehajz0
-2025-09-20 03:09:55,702 - src.youtube - INFO - Updated video ID for 'UNCONDITIONAL' by 'JADE': cu4--ehajz0
-2025-09-20 03:09:55,702 - src.youtube - INFO - Getting video ID for "DOG HOUSE DRAKE/JULIA WOLF/YEAT" from YouTube
-2025-09-20 03:09:55,703 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:56,197 - src.youtube - INFO - Found video ID: NESMSBcqfVI
-2025-09-20 03:09:56,199 - src.youtube - INFO - Updated video ID for 'DOG HOUSE' by 'DRAKE/JULIA WOLF/YEAT': NESMSBcqfVI
-2025-09-20 03:09:56,199 - src.youtube - INFO - Getting video ID for "THE HAPPY DICTATOR GORILLAZ FT SPARKS" from YouTube
-2025-09-20 03:09:56,200 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:56,645 - src.youtube - INFO - Found video ID: MG_npaLydKg
-2025-09-20 03:09:56,647 - src.youtube - INFO - Updated video ID for 'THE HAPPY DICTATOR' by 'GORILLAZ FT SPARKS': MG_npaLydKg
-2025-09-20 03:09:56,647 - src.youtube - INFO - Getting video ID for "PHANTOM ESDEEKID & RICO ACE" from YouTube
-2025-09-20 03:09:56,648 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:57,123 - src.youtube - INFO - Found video ID: hmdzniMJOZs
-2025-09-20 03:09:57,124 - src.youtube - INFO - Updated video ID for 'PHANTOM' by 'ESDEEKID & RICO ACE': hmdzniMJOZs
-2025-09-20 03:09:57,125 - src.youtube - INFO - Getting video ID for "RAWFEAR TWENTY ONE PILOTS" from YouTube
-2025-09-20 03:09:57,125 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-20 03:09:57,484 - src.youtube - INFO - Found video ID: xHimP0uwink
-2025-09-20 03:09:57,485 - src.youtube - INFO - Updated video ID for 'RAWFEAR' by 'TWENTY ONE PILOTS': xHimP0uwink
-2025-09-20 03:09:57,485 - src.youtube - INFO - 7 video IDs updated successfully
-2025-09-20 03:09:57,486 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-09-20 03:09:57,486 - __main__ - INFO - YouTube video ID update process completed
+2025-09-27 03:10:20,772 - __main__ - INFO - Starting YouTube video ID update process
+2025-09-27 03:10:20,774 - src.youtube - INFO - Updating video IDs for 5 songs
+2025-09-27 03:10:20,774 - src.youtube - INFO - Getting video ID for "SOMETHING IN THE HEAVENS LEWIS CAPALDI" from YouTube
+2025-09-27 03:10:20,774 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
+2025-09-27 03:10:20,775 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-27 03:10:21,321 - src.youtube - INFO - Found video ID: aVUuXuzd7nY
+2025-09-27 03:10:21,324 - src.youtube - INFO - Updated video ID for 'SOMETHING IN THE HEAVENS' by 'LEWIS CAPALDI': aVUuXuzd7nY
+2025-09-27 03:10:21,324 - src.youtube - INFO - Getting video ID for "WHERE IS MY HUSBAND RAYE" from YouTube
+2025-09-27 03:10:21,325 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-27 03:10:21,765 - src.youtube - INFO - Found video ID: 2ArrY3wdTEo
+2025-09-27 03:10:21,768 - src.youtube - INFO - Updated video ID for 'WHERE IS MY HUSBAND' by 'RAYE': 2ArrY3wdTEo
+2025-09-27 03:10:21,768 - src.youtube - INFO - Getting video ID for "DEPRESSED ANNE-MARIE" from YouTube
+2025-09-27 03:10:21,769 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-27 03:10:22,209 - src.youtube - INFO - Found video ID: 3TPOocxXoWA
+2025-09-27 03:10:22,211 - src.youtube - INFO - Updated video ID for 'DEPRESSED' by 'ANNE-MARIE': 3TPOocxXoWA
+2025-09-27 03:10:22,211 - src.youtube - INFO - Getting video ID for "POST SEX CLARITY LOLA YOUNG" from YouTube
+2025-09-27 03:10:22,212 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-27 03:10:22,808 - src.youtube - INFO - Found video ID: 2HuHrO8vL8k
+2025-09-27 03:10:22,810 - src.youtube - INFO - Updated video ID for 'POST SEX CLARITY' by 'LOLA YOUNG': 2HuHrO8vL8k
+2025-09-27 03:10:22,810 - src.youtube - INFO - Getting video ID for "SAFE CARDI B FT KEHLANI" from YouTube
+2025-09-27 03:10:22,811 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-27 03:10:23,248 - src.youtube - INFO - Found video ID: E_0y8bmIATM
+2025-09-27 03:10:23,249 - src.youtube - INFO - Updated video ID for 'SAFE' by 'CARDI B FT KEHLANI': E_0y8bmIATM
+2025-09-27 03:10:23,249 - src.youtube - INFO - 5 video IDs updated successfully
+2025-09-27 03:10:23,251 - src.youtube - INFO - 0 songs without video IDs remaining
+2025-09-27 03:10:23,251 - __main__ - INFO - YouTube video ID update process completed
