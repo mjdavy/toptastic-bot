@@ -11,6 +11,8 @@ https://mjdavy.github.io/toptastic-bot/songs.db
 https://mjdavy.github.io/toptastic-bot/songs.sha256
 https://mjdavy.github.io/toptastic-bot/timestamp.txt
 https://mjdavy.github.io/toptastic-bot/metadata.json
+https://mjdavy.github.io/toptastic-bot/latest_playlist.csv
+https://mjdavy.github.io/toptastic-bot/songs.csv
 ```
 
 `songs.db` structure:
@@ -43,6 +45,32 @@ open("songs.db", "wb").write(db_bytes)
 ```
 
 `timestamp.txt` contains the UTC time the file was generated. `metadata.json` includes size, sha256, and schema summary for programmatic consumption.
+
+### CSV Exports
+
+`latest_playlist.csv` columns:
+
+| column | description |
+|--------|-------------|
+| chart_date | yyyymmdd Friday chart date |
+| position | Position on chart (1..N) |
+| song_name | Song title |
+| artist | Artist name |
+| lw | Last week position (0 if new/re-entry) |
+| peak | Peak position |
+| weeks | Total weeks on chart |
+| is_new | 1 if new entry this week |
+| is_reentry | 1 if re-entry this week |
+| video_id | YouTube video id (may be empty) |
+
+`songs.csv` columns:
+
+| column | description |
+|--------|-------------|
+| id | Internal song id |
+| song_name | Song title |
+| artist | Artist name |
+| video_id | YouTube video id (may be empty) |
 
 ## Workflows
 

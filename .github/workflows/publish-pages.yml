@@ -37,11 +37,13 @@ jobs:
         run: |
           python scripts/update_charts.py --mode latest
           python scripts/update_videos.py
+          python scripts/export_csv.py
 
       - name: Prepare public artifacts
         run: |
           mkdir -p public
           cp songs.db public/songs.db
+          # CSV exports already placed in public/ by export_csv.py (latest_playlist.csv, songs.csv)
           # Hash (just digest for easy parsing)
           shasum -a 256 songs.db | cut -d ' ' -f1 > public/songs.sha256
           # Timestamp (UTC ISO8601)
