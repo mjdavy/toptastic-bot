@@ -36,12 +36,5 @@ jobs:
         run: python scripts/update_videos.py
         env:
           YOUTUBE_API_KEYS: ${{ secrets.YOUTUBE_API_KEYS }}
-
-      - name: Commit and push if changes
-        run: |
-          git config --local user.email "github-actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add songs.db
-          git add *.log
-          git diff --staged --quiet || git commit -m "Update songs database [skip ci]"
-          git push
+      # No commit step here anymore: songs.db is published via publish-pages.yml workflow.
+      # If you ever need to debug artifacts, you can reintroduce a commit step or upload as an artifact.

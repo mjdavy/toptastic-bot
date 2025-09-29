@@ -43,10 +43,10 @@ instance/
 .webassets-cache
 
 # Database files
-# Uncomment if you don't want to track database files
-# *.db
-# *.sqlite
-# *.sqlite3
+# songs.db is generated weekly and published via GitHub Pages (publish-pages.yml)
+songs.db
+*.sqlite
+*.sqlite3
 
 # Logs
 #logs/
