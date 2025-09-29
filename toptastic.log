@@ -1,26 +1,12 @@
-2025-09-27 03:10:20,772 - __main__ - INFO - Starting YouTube video ID update process
-2025-09-27 03:10:20,774 - src.youtube - INFO - Updating video IDs for 5 songs
-2025-09-27 03:10:20,774 - src.youtube - INFO - Getting video ID for "SOMETHING IN THE HEAVENS LEWIS CAPALDI" from YouTube
-2025-09-27 03:10:20,774 - src.youtube - INFO - Loaded 12 API key(s) from environment variable
-2025-09-27 03:10:20,775 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-27 03:10:21,321 - src.youtube - INFO - Found video ID: aVUuXuzd7nY
-2025-09-27 03:10:21,324 - src.youtube - INFO - Updated video ID for 'SOMETHING IN THE HEAVENS' by 'LEWIS CAPALDI': aVUuXuzd7nY
-2025-09-27 03:10:21,324 - src.youtube - INFO - Getting video ID for "WHERE IS MY HUSBAND RAYE" from YouTube
-2025-09-27 03:10:21,325 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-27 03:10:21,765 - src.youtube - INFO - Found video ID: 2ArrY3wdTEo
-2025-09-27 03:10:21,768 - src.youtube - INFO - Updated video ID for 'WHERE IS MY HUSBAND' by 'RAYE': 2ArrY3wdTEo
-2025-09-27 03:10:21,768 - src.youtube - INFO - Getting video ID for "DEPRESSED ANNE-MARIE" from YouTube
-2025-09-27 03:10:21,769 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-27 03:10:22,209 - src.youtube - INFO - Found video ID: 3TPOocxXoWA
-2025-09-27 03:10:22,211 - src.youtube - INFO - Updated video ID for 'DEPRESSED' by 'ANNE-MARIE': 3TPOocxXoWA
-2025-09-27 03:10:22,211 - src.youtube - INFO - Getting video ID for "POST SEX CLARITY LOLA YOUNG" from YouTube
-2025-09-27 03:10:22,212 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-27 03:10:22,808 - src.youtube - INFO - Found video ID: 2HuHrO8vL8k
-2025-09-27 03:10:22,810 - src.youtube - INFO - Updated video ID for 'POST SEX CLARITY' by 'LOLA YOUNG': 2HuHrO8vL8k
-2025-09-27 03:10:22,810 - src.youtube - INFO - Getting video ID for "SAFE CARDI B FT KEHLANI" from YouTube
-2025-09-27 03:10:22,811 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-09-27 03:10:23,248 - src.youtube - INFO - Found video ID: E_0y8bmIATM
-2025-09-27 03:10:23,249 - src.youtube - INFO - Updated video ID for 'SAFE' by 'CARDI B FT KEHLANI': E_0y8bmIATM
-2025-09-27 03:10:23,249 - src.youtube - INFO - 5 video IDs updated successfully
-2025-09-27 03:10:23,251 - src.youtube - INFO - 0 songs without video IDs remaining
-2025-09-27 03:10:23,251 - __main__ - INFO - YouTube video ID update process completed
+2025-09-29 10:49:56,096 - __main__ - INFO - Analyzing top 10 songs for chart date 20250926
+2025-09-29 10:49:56,096 - src.youtube - INFO - Loaded 1 API key(s) from environment variable
+2025-09-29 10:49:56,097 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:49:56,780 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:49:57,505 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:49:58,222 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:49:58,799 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:49:59,484 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:50:00,116 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:50:00,752 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:50:01,531 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-09-29 10:50:02,200 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0

@@ -17,9 +17,53 @@ https://mjdavy.github.io/toptastic-bot/songs.csv
 
 `songs.db` structure:
 
-- `songs(id, song_name, artist, video_id)`
+- `songs(id, song_name, artist, video_id, video_title, channel_title, video_confidence)`
 - `playlists(id, date)` where `date` is yyyymmdd string (Friday chart date)
 - `playlist_songs(playlist_id, song_id, position, lw, peak, weeks, is_new, is_reentry)`
+
+### Video Selection Quality
+
+The project uses a heuristic scoring system (see `src/video_selector.py`) to prefer the *official* music video when available and only fall back to lyric / audio / live / cover / remix uploads if necessary. For each song we:
+
+1. Query the YouTube Data API for up to 15 candidate videos (artist + song).
+2. Fetch rich metadata (snippet, statistics, contentDetails) for all candidates in a single batch.
+3. Assign scores with weighted signals:
+    - Strong positives: artist channel match, VEVO channel, presence of "Official Music Video" keywords, good title token overlap, Music category, plausible duration, higher view counts.
+    - Penalties: lyric video, audio-only, visualizer, static image, live performance, cover, unrelated remix (unless original title includes remix), out-of-range duration.
+4. Persist the highest-scoring candidate.
+
+Additional columns:
+
+- `video_title` – Title chosen for traceability / debugging.
+- `channel_title` – Channel of the selected video.
+- `video_confidence` – Final heuristic score (higher is better, rough scale ~0–120+). Use this to flag low-confidence matches.
+
+The heuristic is intentionally transparent and easily tunable; adjust the weight constants or add new rules in `video_selector.py` as music metadata patterns evolve.
+
+#### Manual Analysis / Re-evaluation
+
+Use the helper script to inspect the top N songs and see alternative candidate rankings (without modifying the DB):
+
+```bash
+python scripts/analyze_top_videos.py --limit 10
+```
+
+To target a specific chart date (yyyymmdd) and apply higher-confidence improvements automatically:
+
+```bash
+python scripts/analyze_top_videos.py --date 20250926 --limit 15 --min-score 40 --apply
+```
+
+ 
+Flags:
+
+- `--limit` – number of top positions to analyze (default 10)
+- `--date` – chart date; defaults to latest present in DB
+- `--apply` – actually persist improved matches
+- `--min-score` – require at least this heuristic score before replacing existing mapping
+
+
+The script prints top 5 candidate videos (with reasons) for quick visual inspection.
 
 ## Integrity Verification
 
@@ -62,6 +106,9 @@ open("songs.db", "wb").write(db_bytes)
 | is_new | 1 if new entry this week |
 | is_reentry | 1 if re-entry this week |
 | video_id | YouTube video id (may be empty) |
+| video_title | Stored video title (may be NULL) |
+| channel_title | Channel title (may be NULL) |
+| video_confidence | Heuristic score (float, may be NULL) |
 
 `songs.csv` columns:
 
@@ -71,6 +118,9 @@ open("songs.db", "wb").write(db_bytes)
 | song_name | Song title |
 | artist | Artist name |
 | video_id | YouTube video id (may be empty) |
+| video_title | Stored video title (may be NULL) |
+| channel_title | Channel title (may be NULL) |
+| video_confidence | Heuristic score (float, may be NULL) |
 
 ## Workflows
 
@@ -91,6 +141,21 @@ python scripts/update_charts.py --mode latest
 YOUTUBE_API_KEYS=key1,key2 python scripts/update_videos.py
 ```
 
+### Makefile Shortcuts
+
+After creating the venv you can also:
+
+```bash
+make venv           # create virtual environment
+source .venv/bin/activate
+make install        # install dependencies
+export YOUTUBE_API_KEYS=key1,key2
+make update-charts  # scrape latest chart
+make update-videos  # enrich video metadata
+make analyze        # analyze top 10 candidates
+make test           # run tests
+```
+
 ## Environment Variables
 
 `YOUTUBE_API_KEYS` – Comma-separated list of YouTube Data API keys. The workflow injects this from repository secrets; never commit keys.
@@ -103,9 +168,12 @@ YOUTUBE_API_KEYS=key1,key2 python scripts/update_videos.py
 
 ## Potential Improvements
 
-- Add historical backfill workflow to regenerate older weeks.
-- Provide a CSV export alongside SQLite.
-- Add optional GPG-signed hash file for stronger provenance.
+- Historical backfill workflow to regenerate older weeks.
+- More advanced fuzzy matching (e.g., Levenshtein / token set ratio via RapidFuzz) if false positives persist.
+- Channel verification using YouTube channel sections / topic categories.
+- Cache per-artist channel IDs to bias future selections.
+- Use YouTube Music API (if/when public) or MusicBrainz / ISRC linking for canonical matching.
+- Optional GPG-signed hash file for stronger provenance.
 
 ## License & Legal
 
