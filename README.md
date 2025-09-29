@@ -54,14 +54,12 @@ To target a specific chart date (yyyymmdd) and apply higher-confidence improveme
 python scripts/analyze_top_videos.py --date 20250926 --limit 15 --min-score 40 --apply
 ```
 
- 
 Flags:
 
 - `--limit` – number of top positions to analyze (default 10)
 - `--date` – chart date; defaults to latest present in DB
 - `--apply` – actually persist improved matches
 - `--min-score` – require at least this heuristic score before replacing existing mapping
-
 
 The script prints top 5 candidate videos (with reasons) for quick visual inspection.
 
