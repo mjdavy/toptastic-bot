@@ -1,0 +1,16 @@
+[project]
+name = "toptastic-bot"
+version = "0.1.0"
+description = "Automated scraper and YouTube enricher for the UK Singles Chart"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4==4.13.4",
+    "google-api-python-client==2.172.0",
+    "pytest==8.4.0",
+    "rapidfuzz==3.9.6",
+    "requests==2.32.4",
+]
+
+[tool.uv]
+package = false

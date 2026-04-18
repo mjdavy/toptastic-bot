@@ -93,7 +93,7 @@ open("songs.db", "wb").write(db_bytes)
 `latest_playlist.csv` columns:
 
 | column | description |
-|--------|-------------|
+| ------ | ----------- |
 | chart_date | yyyymmdd Friday chart date |
 | position | Position on chart (1..N) |
 | song_name | Song title |
@@ -111,7 +111,7 @@ open("songs.db", "wb").write(db_bytes)
 `songs.csv` columns:
 
 | column | description |
-|--------|-------------|
+| ------ | ----------- |
 | id | Internal song id |
 | song_name | Song title |
 | artist | Artist name |
@@ -123,8 +123,9 @@ open("songs.db", "wb").write(db_bytes)
 ## Workflows
 
 | Workflow | File | Purpose |
-|----------|------|---------|
+| -------- | ---- | ------- |
 | Update Songs Database | `.github/workflows/update-database.yml` | Internal run to build/update local DB (no longer commits db) |
+| Update Python Packages | `.github/workflows/update-packages.yml` | Refreshes pinned Python dependencies with uv, runs tests, and opens a PR |
 | Publish Songs DB (Pages) | `.github/workflows/publish-pages.yml` | Builds, hashes, and deploys artifacts to GitHub Pages |
 
 The *publish* workflow is the source of truth for public artifacts.
@@ -132,27 +133,28 @@ The *publish* workflow is the source of truth for public artifacts.
 ## Local Development
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/update_charts.py --mode latest
-YOUTUBE_API_KEYS=key1,key2 python scripts/update_videos.py
+brew install uv
+uv sync
+uv run python scripts/update_charts.py --mode latest
+YOUTUBE_API_KEYS=key1,key2 uv run python scripts/update_videos.py
 ```
 
 ### Makefile Shortcuts
 
-After creating the venv you can also:
+After syncing dependencies you can also:
 
 ```bash
-make venv           # create virtual environment
-source .venv/bin/activate
-make install        # install dependencies
+make venv           # create the project virtual environment
+make install        # sync dependencies from pyproject.toml / uv.lock
+make lock           # refresh uv.lock after dependency changes
 export YOUTUBE_API_KEYS=key1,key2
 make update-charts  # scrape latest chart
 make update-videos  # enrich video metadata
 make analyze        # analyze top 10 candidates
 make test           # run tests
 ```
+
+`uv` creates and manages `.venv` automatically. The Makefile targets run through `uv run`, so activating the environment is optional.
 
 ## Environment Variables
 

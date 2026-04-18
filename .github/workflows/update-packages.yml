@@ -1,0 +1,52 @@
+name: Update Python Packages
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-packages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Update pinned dependencies
+        run: |
+          direct_packages="$(python -c "import pathlib, re, tomllib; deps = tomllib.loads(pathlib.Path('pyproject.toml').read_text())['project']['dependencies']; print(' '.join(re.split(r'[<>=!~]', dep, maxsplit=1)[0].strip() for dep in deps))")"
+          uv add --bounds exact $direct_packages
+          uv sync
+
+      - name: Run tests
+        run: uv run pytest -q
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'chore: update Python dependencies'
+          title: 'chore: update Python dependencies'
+          body: |
+            Automated dependency refresh using uv.
+
+            - updates direct dependency pins in pyproject.toml
+            - regenerates uv.lock
+            - verifies the test suite passes
+          branch: chore/update-python-dependencies
+          delete-branch: true
