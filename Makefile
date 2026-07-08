@@ -35,7 +35,6 @@ analyze:
 	@if [ -z "$$YOUTUBE_API_KEYS" ]; then echo 'YOUTUBE_API_KEYS not set'; exit 1; fi
 	$(UV) run python scripts/analyze_top_videos.py --limit 10
 
-# run all tests
 test:
 	$(UV) run pytest -q
 
