@@ -1,7 +1,7 @@
 UV ?= uv
 VENV_DIR := .venv
 
-.PHONY: help venv install lock update-charts update-videos analyze test clean
+.PHONY: help venv install lock update-charts update-videos validate-videos sync-all analyze test clean
 
 help:
 	@echo 'Common targets:'
@@ -9,7 +9,9 @@ help:
 	@echo '  make install         - sync dependencies with uv'
 	@echo '  make lock            - refresh uv lockfile'
 	@echo '  make update-charts   - scrape latest chart into DB'
+	@echo '  make validate-videos - clear stale/deleted video IDs (set YOUTUBE_API_KEYS first)'
 	@echo '  make update-videos   - enrich songs with video metadata'
+	@echo '  make sync-all        - full pipeline: charts + validate + update videos'
 	@echo '  make analyze         - analyze top 10 videos (set YOUTUBE_API_KEYS first)'
 	@echo '  make test            - run pytest suite'
 	@echo '  make clean           - remove caches'
@@ -27,9 +29,15 @@ lock:
 update-charts:
 	$(UV) run python scripts/update_charts.py --mode latest
 
+validate-videos:
+	@if [ -z "$$YOUTUBE_API_KEYS" ]; then echo 'YOUTUBE_API_KEYS not set'; exit 1; fi
+	$(UV) run python scripts/validate_videos.py
+
 update-videos:
 	@if [ -z "$$YOUTUBE_API_KEYS" ]; then echo 'YOUTUBE_API_KEYS not set'; exit 1; fi
 	$(UV) run python scripts/update_videos.py
+
+sync-all: update-charts validate-videos update-videos
 
 analyze:
 	@if [ -z "$$YOUTUBE_API_KEYS" ]; then echo 'YOUTUBE_API_KEYS not set'; exit 1; fi

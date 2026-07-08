@@ -145,11 +145,69 @@ def get_scored_candidates(artist: str, song: str, limit: int = 15):
                 return []
             return get_scored_candidates(artist, song, limit=limit)
         return []
-    except Exception:
-        return []
     except Exception as e:
-        logger.error(f"Unexpected error selecting video: {e}")
-        return None
+        logger.error(f"Unexpected error getting scored candidates: {e}")
+        return []
+
+def validate_video_ids():
+    """Check all stored video IDs against the YouTube API and clear any that are no longer available.
+
+    Returns the number of entries cleared. Run this before update_video_ids() so stale IDs get
+    re-fetched with fresh searches.
+    """
+    conn = get_db_connection()
+    rows = conn.execute(
+        "SELECT id, song_name, artist, video_id FROM songs WHERE video_id IS NOT NULL AND video_id != ''"
+    ).fetchall()
+    logger.info(f'Validating {len(rows)} existing video IDs')
+
+    # Map each video_id to the song row IDs that reference it (multiple songs can share a video_id)
+    id_to_song_ids: dict = {}
+    for row in rows:
+        id_to_song_ids.setdefault(row['video_id'], []).append(row['id'])
+
+    all_video_ids = list(id_to_song_ids.keys())
+    BATCH_SIZE = 50
+    invalid: set = set()
+
+    try:
+        youtube = get_youtube_service()
+    except Exception as e:
+        logger.error(f'Cannot initialise YouTube service: {e}')
+        conn.close()
+        return 0
+
+    for i in range(0, len(all_video_ids), BATCH_SIZE):
+        batch = all_video_ids[i:i + BATCH_SIZE]
+        try:
+            response = youtube.videos().list(id=','.join(batch), part='id').execute()
+            valid_in_batch = {item['id'] for item in response.get('items', [])}
+            invalid_in_batch = set(batch) - valid_in_batch
+            if invalid_in_batch:
+                logger.info(f'Batch {i // BATCH_SIZE + 1}: {len(invalid_in_batch)} invalid/unavailable IDs')
+            invalid.update(invalid_in_batch)
+        except HttpError as e:
+            if e.resp.status == 403:
+                logger.error('API quota exceeded during validation — stopping early')
+                break
+            logger.error(f'HTTP error validating batch: {e}')
+
+    if not invalid:
+        logger.info('All video IDs are valid')
+        conn.close()
+        return 0
+
+    logger.info(f'Clearing {len(invalid)} invalid/unavailable video IDs')
+    cleared = 0
+    for vid in invalid:
+        for song_id in id_to_song_ids[vid]:
+            conn.execute('UPDATE songs SET video_id = NULL, video_title = NULL, channel_title = NULL, video_confidence = NULL WHERE id = ?', (song_id,))
+            cleared += 1
+    conn.commit()
+    conn.close()
+    logger.info(f'Cleared {cleared} song entries — they will be re-fetched on next update_videos run')
+    return cleared
+
 
 def update_video_ids():
     """Update video IDs and associated metadata for songs missing them."""

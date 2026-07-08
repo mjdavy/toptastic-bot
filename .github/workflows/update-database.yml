@@ -30,6 +30,9 @@ jobs:
       - name: Run database sync script
         run: uv run python scripts/update_charts.py
 
+      - name: Validate existing video IDs
+        run: uv run python scripts/validate_videos.py
+
       - name: Run YouTube ID update script
         run: uv run python scripts/update_videos.py
         env:
