@@ -21,11 +21,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
         with:
@@ -53,7 +48,7 @@ jobs:
           # Timestamp (UTC ISO8601)
           date -u +"%Y-%m-%dT%H:%M:%SZ" > public/timestamp.txt
           # Simple JSON metadata (can be extended later)
-          python -c "import json,hashlib,pathlib,datetime; p=pathlib.Path('songs.db'); sha=hashlib.sha256(p.read_bytes()).hexdigest(); meta={'file':'songs.db','size_bytes':p.stat().st_size,'sha256':sha,'generated_utc':datetime.datetime.utcnow().isoformat()+'Z','schema':{'tables':['songs','playlists','playlist_songs']}}; pathlib.Path('public/metadata.json').write_text(json.dumps(meta,indent=2))"
+          uv run python -c "import json,hashlib,pathlib,datetime; p=pathlib.Path('songs.db'); sha=hashlib.sha256(p.read_bytes()).hexdigest(); meta={'file':'songs.db','size_bytes':p.stat().st_size,'sha256':sha,'generated_utc':datetime.datetime.utcnow().isoformat()+'Z','schema':{'tables':['songs','playlists','playlist_songs']}}; pathlib.Path('public/metadata.json').write_text(json.dumps(meta,indent=2))"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
